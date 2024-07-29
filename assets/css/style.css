@@ -626,6 +626,11 @@ section {
 .portfolio-details {
   padding-top: 40px;
 }
+.port-forlio-details{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
 
 .portfolio-details .portfolio-details-slider video {
   width: 100%;
@@ -1076,6 +1081,7 @@ section {
   color: #0e2442;
   content: "/";
 }
+
 
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
